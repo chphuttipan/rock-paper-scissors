@@ -68,7 +68,7 @@ function playRound(humanChoice, compChoice) {
 
 let numRound = parseInt(prompt("How many round you want to play: "));
 for (let i = 0; i < numRound; i++) {
-    let humanSelection = getHumanChoice()
-    let compSelection = getComputerChoice()
-    playRound(humanSelection, compSelection)
+    let humanSelection = getHumanChoice();
+    let compSelection = getComputerChoice();
+    playRound(humanSelection, compSelection);
 }
